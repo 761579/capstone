@@ -3,18 +3,33 @@ import bruchetta from '../Assets/bruchetta.jpg'
 import greekSalad from '../Assets/greek salad.jpg'
 import lemonDesert from '../Assets/lemon dessert.jpg'
 import deliveryIcon from '../Assets/devileryIcon.png'
+import { Route, Routes } from 'react-router'
+import { useNavigate } from 'react-router'
+
+import Reservation from './BookingPage.js'
+import HomePage from './HomePage'
+
+
+
+
 export default function Main(){
+
+    const history=useNavigate()
+ const handleClick=()=>{
+  history('/booking')
+ }
     return(
         <div >
         <section  className="section-one">
         <div>
-        <p>Little lemon</p>
-        <p>helloo</p>
-        <p>we are a family owned Mediterian restaurant,
+        <h1  className="title">Little lemon</h1>
+        <h3 className="discription">Chicago</h3>
+        <p className="discription">we are a family owned Mediterian restaurant,
             focused on traditional reciepies served with a modern twist.
         </p>
        
-        <button type="submit ">Reserve a Table</button> </div>
+    
+        <button type="submit " className="reservebutton" onClick={handleClick}>Reserve a Table</button> </div>
 
         <aside class="image-container">
             <img src={restrauntfood} alt="restraunt image" />

@@ -7,6 +7,8 @@
   background-color: antiquewhite;
   color:blueviolet;
   grid-template-columns: auto auto;
+  padding-left:15%;
+  padding-right:10%;
 
 }
 .nav-list{
@@ -17,6 +19,23 @@
 }
 .nav-links{
   text-decoration:none;
+
+}
+.app-logo{
+   margin-top:1rem;
+}
+.discription{
+  color:white;
+}
+.reservebutton{
+  background-color:#f4ce14 ;
+  border-radius: 10%;
+  padding:0.5rem;
+  margin-bottom: 0.5rem;
+}
+.title{
+  color:#f4ce14;
+  font-size: 25pt;
 
 }
 .section-one{
@@ -40,18 +59,14 @@
   width: 80%;
 
 }
-.image-container {
-  width: 200px; /* Set the desired width of the container */
-  height: 200px; /* Set the desired height of the container */
-  overflow: hidden; /* Hide the overflowed portion of the image */
-  position: relative; /* Create a positioning context for the image */
-}
+
 
 .image-container img {
-  width: 100%; /* Make the image fill the container horizontally */
-  height: auto; /* Maintain the aspect ratio of the image */
-  margin-left:auto;
-  margin-right:auto;
+  width: 250px; /* Make the image fill the container horizontally */
+  height: 300px; /* Maintain the aspect ratio of the image */
+  margin: 1rem auto 1rem 10rem;
+  border-radius: 10%;
+  
 
 }
 
@@ -120,8 +135,84 @@ article footer{
 {
   text-align:right;
 }
+/* Footer */
+.footer-container{
+  display:grid;
+  grid-template-columns: 60% 30%;
+  background-color: antiquewhite;
+  
+ 
+  
+}
+.footer-icons{
+  height: 50px;
+  width:50px;
+  margin-top:60%;
+}
 
 
+.footer-logo{
+margin-left:20%;
 
+}
+
+/* Bookingform */
+.form-container{
+ 
+  
+  display: grid;
+  justify-content: center;
+  margin:5rem;
+}
+.reserveheading{
+  text-align: center;
+  color:#564d1d;
+  
+  font-size:40pt;
+}
+.bookingpage{
+  background-color: azure;
+  background-size:contain;
+}
+.label{
+  font-size:15pt;
+  text-decoration:underline;
+}
+.booking-form{
+
+
+  display: grid;
+  grid-template-columns: auto auto;
+  
+  gap: 20px;
+}
+.input-field{
+  background-color: white;
+  height:30px;
+  width:200px;
+}
+
+.resevationbutton{
+  background-color:#f4ce14;
+  padding:5%;
+ 
+}
+.confirmbooking{
+  
+  display:grid;
+  grid-template-columns: 5% 95%;
+  
+  background-color: beige;
+  height:100vh;
+  font-size: 40pt;
+  margin-top: none;
+}
+.backicon{
+  margin-left:3vw;
+  margin-top:5vw
+}
+.confirmtext{
+  text-align: center;
+}
 
 

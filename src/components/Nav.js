@@ -1,15 +1,16 @@
 import Logo from "../Assets/Logo.svg"
+import { Link } from "react-router-dom";
 import '../App.css';
 export default function Nav(){
     return(
         <div className="nav-container">
-        <img src={Logo} className="App-logo" alt="logo" height="50%" width="50%" />
+        <img src={Logo} className="app-logo" alt="logo" height="50%" width="50%" />
         <ul className="nav-list">
-            <li><a className="nav-links" href="">Home</a></li>
-            <li><a className="nav-links" href="">About</a></li>
-            <li><a className="nav-links" href="">Menu</a></li>
-            <li><a className="nav-links" href="">Reservation</a></li>
-            <li><a className="nav-links" href="">OrderOnline</a></li>
+            <li><Link to="/" className="nav-links" >Home</Link></li>
+            <li><Link to="/" className="nav-links">About</Link></li>
+            <li><Link to="/" className="nav-links">Menu</Link></li>
+            <li><Link  to="/booking" className="nav-links" >Reservation</Link></li>
+            <li><Link to="/" className="nav-links" >OrderOnline</Link></li>
         </ul>
         </div>
         )
