@@ -1,0 +1,218 @@
+*{
+  text-decoration: none;
+}
+
+.nav-container{
+  display:grid;
+  background-color: antiquewhite;
+  color:blueviolet;
+  grid-template-columns: auto auto;
+  padding-left:15%;
+  padding-right:10%;
+
+}
+.nav-list{
+  display : inline-grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  list-style: none;
+
+}
+.nav-links{
+  text-decoration:none;
+
+}
+.app-logo{
+   margin-top:1rem;
+}
+.discription{
+  color:white;
+}
+.reservebutton{
+  background-color:#f4ce14 ;
+  border-radius: 10%;
+  padding:0.5rem;
+  margin-bottom: 0.5rem;
+}
+.title{
+  color:#f4ce14;
+  font-size: 25pt;
+
+}
+.section-one{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  background-color: #495e57;
+  padding: 5px 20% 0px 20%;
+  margin-bottom: none;
+ 
+
+}
+.name{
+  font-size: 35pt;
+}
+.location{
+  font-size: 20pt ;
+
+}
+.main-image{
+  height: 80%;
+  width: 80%;
+
+}
+
+
+.image-container img {
+  width: 250px; /* Make the image fill the container horizontally */
+  height: 300px; /* Maintain the aspect ratio of the image */
+  margin: 1rem auto 1rem 10rem;
+  border-radius: 10%;
+  
+
+}
+
+.section-two{
+  display:grid;
+  grid-template-columns: 80% 20%;
+  padding:30px 20% 10px 20%;
+  font-size: 20pt;
+  
+}
+.online-menu{
+  background:#f4ce14;;
+  border-radius: 20px;
+  height:50px;
+  width:200px;
+  margin-top:50px
+}
+
+.section-three{
+  display :grid;
+  grid-template-columns: auto auto auto ;
+  padding:10px 20% 10px 20%;
+
+}
+article{
+  margin:1rem;
+  background-color: #EDEFEE;
+  
+
+}
+article header{
+  font-size:15pt;
+  margin-top:1rem;
+  padding:0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+.food{
+  height:40vh;
+  width:20vw
+}
+article p{
+  font-size:10pt;
+  margin-top:2rem;
+  padding:0.5rem;
+}
+
+header span{
+  color:#f4ce14;
+  text-align: right;
+  font-size: 10pt;
+}
+article footer{
+  font-weight: bold;
+  margin-top:2.5rem;
+  padding:1rem;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  
+}
+.deliveryIcon
+{
+  text-align:right;
+}
+/* Footer */
+.footer-container{
+  display:grid;
+  grid-template-columns: 60% 30%;
+  background-color: antiquewhite;
+  
+ 
+  
+}
+.footer-icons{
+  height: 50px;
+  width:50px;
+  margin-top:60%;
+}
+
+
+.footer-logo{
+margin-left:20%;
+
+}
+
+/* Bookingform */
+.form-container{
+ 
+  
+  display: grid;
+  justify-content: center;
+  margin:5rem;
+}
+.reserveheading{
+  text-align: center;
+  color:#564d1d;
+  
+  font-size:40pt;
+}
+.bookingpage{
+  background-color: azure;
+  background-size:contain;
+}
+.label{
+  font-size:15pt;
+  text-decoration:underline;
+}
+.booking-form{
+
+
+  display: grid;
+  grid-template-columns: auto auto;
+  
+  gap: 20px;
+}
+.input-field{
+  background-color: white;
+  height:30px;
+  width:200px;
+}
+
+.resevationbutton{
+  background-color:#f4ce14;
+  padding:5%;
+ 
+}
+.confirmbooking{
+  
+  display:grid;
+  grid-template-columns: 5% 95%;
+  
+  background-color: beige;
+  height:100vh;
+  font-size: 40pt;
+  margin-top: none;
+}
+.backicon{
+  margin-left:3vw;
+  margin-top:5vw
+}
+.confirmtext{
+  text-align: center;
+}
+
+
